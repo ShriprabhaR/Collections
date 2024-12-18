@@ -22,7 +22,20 @@ namespace Collections
             Console.WriteLine("------------------");
 
             GenericCollectionSortedList.SortedListGenericCollection();
+            Console.WriteLine("------------------");
 
-        }
-    }
-}
+            NonGenericCollectonStack.StackNonGenericCollection();
+            Console.WriteLine("------------------");
+
+            GenericCollectionStack.StackGenericCollection();
+            Console.WriteLine("------------------");
+
+            NonGenericCollectionQueue.QueueNonGenericCollection();
+            Console.WriteLine("------------------");
+
+            GenericCollectionQueue.QueueGenericCollection();
+            Console.WriteLine("------------------");
+
+          }
+      }
+  }
